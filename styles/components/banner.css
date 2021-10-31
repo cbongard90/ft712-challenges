@@ -1,0 +1,25 @@
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/hero.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.hero-text-box {
+  width: 100%;
+  height: 100%;
+  background-color: #30303040;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-banner h1 {
+  font-weight: 700;
+  color: white;
+}
