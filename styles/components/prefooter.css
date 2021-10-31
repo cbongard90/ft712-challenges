@@ -3,8 +3,22 @@
   left: 10px;
   height: 250px;
   width: 20%;
-  background-color: #303030;
   z-index: -1;
+}
+#pointer {
+  background-color: #303030;
+  clip-path: polygon(0 0, 0 33%, 14% 43%, 0 52%, 0 100%, 100% 100%, 100% 0);
+  width: 100%;
+  height: 100%;
+}
+#triangle {
+  position: absolute;
+  background-color: #303030;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+  clip-path: polygon(0 28%, 16% 41%, 0 53%);
 }
 
 .pf-child {
@@ -15,6 +29,9 @@
   background-color: #797979;
   z-index: -20;
   margin-left: 1px;
+}
+.pf-child:nth-child(2) {
+  clip-path: polygon(0 0, 0 33%, 14% 43%, 0 52%, 0 100%, 100% 100%, 100% 0);
 }
 
 .inside {
