@@ -38,6 +38,18 @@
   padding: 0;
 }
 
+a {
+  font-size: large;
+  color: var(--color-link);
+  text-decoration: none;
+  padding: 16px 16px 0 16px;
+  transition: 0.4s ease-in-out;
+}
+
+li > a:hover {
+  border-bottom: solid 1px var(--color-primary);
+}
+
 .navbar ul > li {
   display: inline-block;
   list-style-type: none;

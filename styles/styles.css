@@ -1,5 +1,7 @@
 /* Importing components via the index */
 @import "components/index.css";
+
+/* Color palette */
 :root{
   --color-primary:hsl(0, 0%, 19%);
   --color-primary-transparent:hsla(0, 0%, 19%, 0.251);
@@ -12,45 +14,6 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
-  font-size: large;
-  color: var(--color-link);
-  text-decoration: none;
-  padding: 16px 16px 0 16px;
-  transition: 0.4s ease-in-out;
-}
-
-li > a:hover {
-  border-bottom: solid 1px var(--color-primary);
-}
-
-.team-text-section {
-  width: 50%;
-}
-
 .top {
   top: 25px;
-}
-
-svg {
-  width: 50vw;
-}
-
-.module-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--color-primary-transparent);
-  z-index: -3;
-}
-
-.module-title {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-}
-
-.module-text {
-  font-size: large;
-  color: var(--color-link);
 }
