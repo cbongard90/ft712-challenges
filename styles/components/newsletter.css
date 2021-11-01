@@ -7,7 +7,8 @@
 
 .news-email-column {
   padding: 3rem;
-  background-color: hsla(0, 0%, 19%, 0.89);
+  background-color:var(--color-primary);
+  opacity: 0.89;
   height: 50%;
 }
 
@@ -37,4 +38,20 @@
   flex-grow: 1;
   object-fit: cover;
   object-position: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.input-element {
+  width: 25rem;
+  padding: 1.2rem;
+  border-radius: 15px 0 0 15px;
+  background-color: #ddd;
+  font-size: large;
+  color: hsla(0, 0%, 19%, 0.89);
 }

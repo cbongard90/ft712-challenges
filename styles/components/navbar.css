@@ -12,9 +12,9 @@
   justify-content: space-around;
   align-items: center;
   justify-content: center;
-  background-color: #e2e2e2cb;
+  background-color: hsla(0, 0%, 89%, 0.796);
   margin: 0;
-  width: 100vw;
+  width: 100%;
   z-index: 999;
   transition: 0.8s all;
 }
