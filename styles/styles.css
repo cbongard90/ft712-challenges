@@ -132,10 +132,6 @@ svg {
 
 
 
-.pf-wrapper {
-  display: flex;
-  width: 80%;
-}
 
 .dropdown-content-right a:hover {background-color: #ddd;}
 .dropdown-content-left a:hover {background-color: #ddd;}

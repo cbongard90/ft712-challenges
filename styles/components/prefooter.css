@@ -1,7 +1,7 @@
 .pf-index {
   position: relative;
   left: 10px;
-  height: 250px;
+
   width: 20%;
   z-index: -1;
 
@@ -14,7 +14,7 @@
 }
 #triangle {
   position: absolute;
-  background-color: #303030;
+  background-color: hsl(0, 0%, 19%);
   width: 100%;
   height: 100%;
   top: 0;
@@ -25,7 +25,7 @@
 .pf-child {
   position: relative;
   left: 10px;
-  height: 250px;
+
   width: 20%;
   background-color: #797979;
   z-index: -20;
@@ -34,8 +34,15 @@
 #pointer-child, #pointer {
   clip-path: polygon(0 0, 0 15%, 15% 25%, 0 35%, 0 100%, 100% 100%, 100% 0);
 }
+.pf-wrapper {
+  margin: 50px 15px;
+  display: flex;
+  width: 75%;
+    min-height: 250px;
+}
 
-.inside {
+
+.inside, .inside-normal {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -47,16 +54,7 @@
 
 }
 
-.inside-normal {
-  padding-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  height: 100%;
-}
+
 
 i {
   font-size: 3rem !important;
