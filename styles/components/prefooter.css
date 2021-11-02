@@ -1,10 +1,8 @@
 .pf-index {
   position: relative;
   left: 10px;
-
   width: 20%;
   z-index: -1;
-
 }
 
 #pointer {
@@ -25,7 +23,6 @@
 .pf-child {
   position: relative;
   left: 10px;
-
   width: 20%;
   background-color: var(--color-secondary);
   z-index: -20;
@@ -38,7 +35,8 @@
   margin: 50px 15px;
   display: flex;
   width: 75%;
-    min-height: 250px;
+  min-width: 1000px;
+  min-height: 250px;
 }
 
 .inside, .inside-normal {
@@ -49,7 +47,7 @@
   text-align: center;
   color: white;
   height: 100%;
-  padding-top: 2rem;
+  padding: 2rem 1rem 0 1rem;
 
 }
 

@@ -4,7 +4,8 @@
 /* Color palette */
 :root{
   --color-primary:hsl(0, 0%, 19%);
-  --color-primary-transparent:hsla(0, 0%, 19%, 0.251);
+  --color-primary-transparent-light: hsla(0, 0%, 19%, 0.89);
+  --color-primary-transparent-strong:hsla(0, 0%, 19%, 0.251);
   --color-secondary:hsl(0, 0%, 47%);
   --color-link:hsl(180, 24%, 47%);
 }
@@ -12,8 +13,4 @@
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-}
-
-.top {
-  top: 25px;
 }

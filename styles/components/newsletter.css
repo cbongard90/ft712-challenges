@@ -11,7 +11,7 @@
   opacity: 0.89;
   height: 50%;
 }
-
+light
 .news-heading {
   display: flex;
   flex-direction: column;
@@ -60,14 +60,14 @@
   border-radius: 15px 0 0 15px;
   background-color: #ddd;
   font-size: large;
-  color: hsla(0, 0%, 19%, 0.89);
+  color: var(--color-primary-transparent-light);
 }
 
 .module-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-primary-transparent);
+  background-color: var(--color-primary-transparent-strong);
   z-index: -3;
 }
 
