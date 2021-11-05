@@ -1,5 +1,5 @@
 .btn {
-  padding: 15px 35px 15px 35px;
+  padding: 15px 35px;
   font-size: large;
   border-radius: 4px;
   border: 1px solid var(--color-primary);
@@ -24,10 +24,12 @@
   border-radius: 0 15px 15px 0;
   z-index: 1;
 }
+
 .submit-button:hover {
   color: white;
   background-color: var(--color-primary);
 }
+
 .dropbtn {
   color: var(--color-link);
   padding: 16px 16px 0 16px;
