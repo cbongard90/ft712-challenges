@@ -1,18 +1,18 @@
-.content-section{
+.content-section {
   width: 70%;
   display: flex;
   margin: 15px auto;
   gap: 100px;
   align-items: center;
 }
-.content-section .team-text-section{
+
+.content-section .team-text-section {
   text-align: justify;
   font-weight: bold;
   max-width: 40ch;
+  width: 50%;
 }
+
 #svg-office {
   width: 50vw;
-}
-.team-text-section {
-  width: 50%;
 }
