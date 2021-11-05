@@ -8,7 +8,6 @@
 .btn-cta {
   color: hsl(0, 0%, 100%);
   background-color: var(--color-primary-transparent-strong);
-/* 0.251 */
 }
 
 .btn-cta:hover {
