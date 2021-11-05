@@ -1,5 +1,5 @@
 .container-card{
-  margin: 15px auto;
+  margin: 0 auto 90px;
   text-align: center;
   width: 90%;
 }
@@ -8,9 +8,8 @@
   justify-content: space-between;
 }
 
-
 .card-category {
-  margin: 60px 15px 60px 15px;
+  margin: 60px 15px 0;
   width: 28%;
   height: 30vh;
   background-size: cover;
@@ -24,8 +23,4 @@
   text-shadow: 1px 1px 3px hsla(0, 0%, 0%, 0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.card-category:hover{
-  transform: scale(1.02);
 }
